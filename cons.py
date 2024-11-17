@@ -64,7 +64,7 @@ def create_route_map_with_details(api_key: str, start: Tuple[float, float], end:
 
 
 def main():
-    api_key = "rGjfNATy1VfWlOaZkEu4pAgilC76k5uI"
+    api_key = "Enter your API key"
     consumer = KafkaConsumer('winetrade', 'winerestaurant', bootstrap_servers=['localhost:9092'],
                              auto_offset_reset='earliest')
 
