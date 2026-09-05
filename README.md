@@ -4,7 +4,7 @@
 
 A global wine trading platform that connects South African wine producers with high-demand restaurants worldwide. The system uses big data pipelines, real-time APIs, and an intelligent auction algorithm to modernize the wine supply chain through dynamic pricing and optimized logistics.
 
-![Use Case Diagram](01_use_case_diagram.png)
+![Use Case Diagram](Images/01_use_case_diagram.png)
 
 ---
 
@@ -52,32 +52,32 @@ Traditional wine supply chains are slow, manual, and inefficient at matching pro
 ### 1. Use Case Diagram
 The overall flow: a restaurant logs in, enters its name and budget, the system runs the perfect-sum auction, the restaurant selects a preferred producer from the results, and delivery logistics are triggered.
 
-![Use Case Diagram](01_use_case_diagram.png)
+![Use Case Diagram](Images/01_use_case_diagram.png)
 
 ### 2. Delivery Analysis — Entry Point
 Restaurants start here, entering their name and a custom budget to kick off the auction search.
 
-![Auction System Home](02_auction_system_home.png)
+![Auction System Home](Images/02_auction_system_home.png)
 
 ### 3. Wine Trade / Auction Results
 The perfect-sum auction engine returns matched producers against the restaurant's budget, broken down by wine type, quantity, cost, and remaining budget.
 
-![Wine Auction Results](03_wine_auction_results.png)
+![Wine Auction Results](Images/03_wine_auction_results.png)
 
 ### 4. Delivery Details
 Once a producer is selected, the platform surfaces structured producer and restaurant details — coordinates, nearest airports, wine type, quantity, and total cost — ready for logistics planning.
 
-![Delivery Details](04_delivery_details.png)
+![Delivery Details](Images/04_delivery_details.png)
 
 ### 5. Optimized Delivery Route
 The logistics module stitches together ground transport, a flight leg, and final-mile ground transport, with live distance, travel time, and traffic delay for each segment.
 
-![Optimal Delivery Route](05_optimal_delivery_route.png)
+![Optimal Delivery Route](Images/05_optimal_delivery_route.png)
 
 ### 6. Flight API Integration
 Real flight options are pulled from the Amadeus API, including pricing, schedule, aircraft type, and cabin class, to select the fastest viable leg.
 
-![Flight API Results](06_flight_api_results.png)
+![Flight API Results](Images/06_flight_api_results.png)
 
 ---
 
