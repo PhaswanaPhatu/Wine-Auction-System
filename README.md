@@ -62,12 +62,12 @@ Restaurants start here, entering their name and a custom budget to kick off the 
 ### 3. Wine Trade / Auction Results
 The perfect-sum auction engine returns matched producers against the restaurant's budget, broken down by wine type, quantity, cost, and remaining budget.
 
-![Wine Auction Results](screenshots/03_wine_auction_results.png)
+![Wine Auction Results](03_wine_auction_results.png)
 
 ### 4. Delivery Details
 Once a producer is selected, the platform surfaces structured producer and restaurant details — coordinates, nearest airports, wine type, quantity, and total cost — ready for logistics planning.
 
-![Delivery Details](screenshots/04_delivery_details.png)
+![Delivery Details](04_delivery_details.png)
 
 ### 5. Optimized Delivery Route
 The logistics module stitches together ground transport, a flight leg, and final-mile ground transport, with live distance, travel time, and traffic delay for each segment.
