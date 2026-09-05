@@ -4,7 +4,7 @@
 
 A global wine trading platform that connects South African wine producers with high-demand restaurants worldwide. The system uses big data pipelines, real-time APIs, and an intelligent auction algorithm to modernize the wine supply chain through dynamic pricing and optimized logistics.
 
-![Use Case Diagram](screenshots/01_use_case_diagram.png)
+![Use Case Diagram](01_use_case_diagram.png)
 
 ---
 
